@@ -2,14 +2,13 @@
   "pages":[
     "pages/home/home",
     "pages/model/model",
-    "pages/index/index",
     "pages/detail/detail",
     "pages/modelM/modelM"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#ff5455",
-    "navigationBarTitleText": "ffffffffff",
+    "navigationBarTitleText": "风求",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh": true
   },

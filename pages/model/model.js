@@ -21,8 +21,9 @@ Page({
     //   })
     // }
     // )
-
+    wx.showNavigationBarLoading(),
     wx.request({
+      
       url: 'https://api.ufengqiu.com/Api/Model/lists',
       // data: {
       //   page:1,
@@ -33,8 +34,10 @@ Page({
       success: function(res){
         console.log('5555555555555555555555555555555555555555555')
         console.log(res.data)
+        wx.hideNavigationBarLoading()
         that.setData({
           modelList:res.data
+          
         })
       },
       fail: function() {
