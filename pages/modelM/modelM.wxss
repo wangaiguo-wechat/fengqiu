@@ -1,0 +1,11 @@
+.modelimage{
+    width: 750rpx;
+    height: 750rpx;
+}
+.title{
+    margin: 20px;
+}
+.subTitle{
+    color: #ef5455;
+    font-size: 15px;
+}

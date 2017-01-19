@@ -1,0 +1,29 @@
+
+<!--pages/home/home.wxml-->
+<scroll-view scroll-y="true" bindscrolltolower="loadMore" lower-lower-threshold="300">
+  <image src="http:\/\/www.ufengqiu.com\/Uploads\/Picture\/2016-09\/57e1e5b686969.jpg" style="width:750rpx;height:380rpx"></image>
+  <view class="header">
+    <view class="left">
+      <image class="pic" src="../../images/job.png"></image>
+      <view class="contentBack">
+        <view class="title">求入伙</view>
+        <view class="subTitle">优秀职位来袭</view>
+      </view>
+    </view>
+    <view class="right">
+      <navigator url="../model/model">
+        <image src="../../images/server.png" class="pic"></image>
+        <view class="contentBack">
+          <view class="title">求服务</view>
+          <view class="subTitle">文娱服务一条龙</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <import src="../index/index.wxml" />
+  <view>
+    <block wx:for="{{homeList.data}}">
+      <template is="cell" data="{{item}}" />
+    </block>
+  </view>
+</scroll-view>

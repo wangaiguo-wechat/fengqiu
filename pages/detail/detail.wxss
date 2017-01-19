@@ -1,0 +1,18 @@
+.background {
+    width: auto;
+    height: auto;
+    box-shadow: 1px,1px,10px,greenyellow;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.background view{
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+}
+.background image{
+    width: 90px;
+    height: 90px;
+    margin: 0,auto;
+}

@@ -1,0 +1,3 @@
+<import src="../index/index" />
+<template is="model" data="{{item}}" wx:for="{{modelList.data}}" />
+

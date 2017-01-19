@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/model/model",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/modelM/modelM"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff5455",
+    "navigationBarTitleText": "ffffffffff",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home_gray.png",
+      "selectedIconPath": "images/home_red.png"
+    },{
+      "pagePath":"pages/model/model",
+      "text":"模特",
+      "iconPath":"images/detection_gray.png",
+      "selectedIconPath":"images/detection_red.png"
+    }],
+    "selectedColor": "#ff5455"
+  }
+}

@@ -1,0 +1,45 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 
+
+.cell {
+  height: 70px;
+  width: 750rpx;
+  display: flex;
+  border-bottom: 1px,solid,#efefef;
+}
+.cell .pic{
+  width: 50px;
+  height: 50px;
+  border: 1px,solid,#efefef;
+  float: left;
+  margin: 10px;
+}
+.cell .rightBack{
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-top: 10px;
+}
+.rightBack .cellTitle{
+  color: black;
+  font-size: 17px;
+  height: 18px;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.rightBack .cellSubTitle{
+  color: #ef5455;
+  font-size: 13px;
+  height: 15px;
+  width: 250px;
+  margin-top: 6px;
+}

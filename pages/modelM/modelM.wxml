@@ -1,0 +1,5 @@
+<view class="container">
+    <image src="{{cover}}" class="modelimage"></image>
+    <view class="title">名字：{{title}}</view>
+    <view class="subTitle">三围：{{bwh}}</view>
+</view>

@@ -1,0 +1,14 @@
+
+<!--<view>detail:{{item.title}}</view>-->
+<view class="container">
+  <view class="background">
+    <image src="{{logo}}"></image>
+     <view style="font-size:19px;">{{job}}</view>
+    <view>公司:{{company}}</view>
+    <view>类型:{{workingTypeStr}}</view>
+    <view>工资:{{workingPayStr}}</view>
+    <view>经验:{{workingAgeStr}}</view>
+    <view>学历:{{workingDegreeStr}}</view>
+    <view>地点:{{provinceName}}{{cityName}}</view>
+  </view>
+</view>
