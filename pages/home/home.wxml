@@ -1,6 +1,6 @@
 
 <!--pages/home/home.wxml-->
-<scroll-view scroll-y="true" bindscrolltolower="loadMore" lower-lower-threshold="300">
+<scroll-view scroll-y="true" bindscrolltolower="loadMore" lower-lower-threshold="300" style="height:1334rpx">
   <image src="http:\/\/www.ufengqiu.com\/Uploads\/Picture\/2016-09\/57e1e5b686969.jpg" style="width:750rpx;height:380rpx"></image>
   <view class="header">
     <view class="left">
@@ -22,7 +22,7 @@
   </view>
   <import src="../index/index.wxml" />
   <view>
-    <block wx:for="{{homeList.data}}">
+    <block wx:for="{{homeList}}">
       <template is="cell" data="{{item}}" />
     </block>
   </view>

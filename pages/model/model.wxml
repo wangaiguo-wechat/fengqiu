@@ -1,3 +1,4 @@
 <import src="../index/index" />
-<template is="model" data="{{item}}" wx:for="{{modelList.data}}" />
-
+<scroll-view class="scroll_view" scroll-y="ture" bindscrolltolower="loadMore">
+  <template is="model" data="{{item}}" wx:for="{{modelList}}" />
+</scroll-view>

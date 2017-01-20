@@ -22,6 +22,7 @@ function request( url, page, success, fail ) {
     return
   }
   var app = getApp()
+  wx.showNavigationBarLoading()
   wx.request( {
     url: url,
     data: {
@@ -30,14 +31,16 @@ function request( url, page, success, fail ) {
       pagesize: 20
     },
     success: function( res ) {
-      if( res.code == 200 ) {
+      if( res.data.code == 200 ) {
         success( res.data )
       } else {
         fail( res.data.reason )
       }
+      wx.hideNavigationBarLoading()
     },
     fail: function() {
       fail( '网络错误' )
+      wx.hideNavigationBarLoading()
     }
 
   })

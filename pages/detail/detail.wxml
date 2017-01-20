@@ -3,7 +3,7 @@
 <view class="container">
   <view class="background">
     <image src="{{logo}}"></image>
-     <view style="font-size:19px;">{{job}}</view>
+    <view style="font-size:19px;">{{job}}</view>
     <view>公司:{{company}}</view>
     <view>类型:{{workingTypeStr}}</view>
     <view>工资:{{workingPayStr}}</view>

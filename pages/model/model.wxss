@@ -1,0 +1,4 @@
+.scroll_view{
+    height: 1334rpx;
+    width: 750rpx;
+}
